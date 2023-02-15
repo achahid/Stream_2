@@ -34,15 +34,14 @@ def option_to_model(level_number):
 
 
 google_analytics_js = """
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script 
-async src="https://www.googletagmanager.com/gtag/js?id=G-63J83V1X86"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2X9MVTB4GR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-63J83V1X86');
+  gtag('config', 'G-2X9MVTB4GR');
 </script>
     """
 st.components.v1.html(google_analytics_js)
