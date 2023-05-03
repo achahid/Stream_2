@@ -35,7 +35,7 @@ def option_to_model(level_number):
 def inject_ga():
     GA_ID = "google_analytics"
 
-    # Note: Please replace the id from G-XXXXXXXXXX to whatever your
+    # Note: Please replace the id from G-FN3J76D6S1 to whatever your
     # web application's id is. You will find this in your Google Analytics account
 
     GA_JS = """
@@ -46,7 +46,7 @@ def inject_ga():
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', 'G-9T5FK3ZWFG');
+              gtag('config', 'G-FN3J76D6S1');
             </script>
            """
 
@@ -73,18 +73,18 @@ inject_ga()
 
 
 
-google_analytics_js = """
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2X9MVTB4GR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+# google_analytics_js = """
+# <!-- Google tag (gtag.js) -->
+# <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X9MVTB4GR"></script>
+# <script>
+#   window.dataLayer = window.dataLayer || [];
+#   function gtag(){dataLayer.push(arguments);}
+#   gtag('js', new Date());
 
-  gtag('config', 'G-2X9MVTB4GR');
-</script>
-    """
-st.components.v1.html(google_analytics_js)
+#   gtag('config', 'G-2X9MVTB4GR');
+# </script>
+#     """
+# st.components.v1.html(google_analytics_js)
 
 
 
