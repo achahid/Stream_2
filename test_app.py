@@ -40,7 +40,7 @@ def inject_ga():
 
     GA_JS = """
             <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-9T5FK3ZWFG"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-FN3J76D6S1"></script>
             <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
