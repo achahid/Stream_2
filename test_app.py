@@ -8,7 +8,7 @@ import pathlib
 from bs4 import BeautifulSoup
 import logging
 import shutil
-
+from altair.vegalite.v4.api import Chart
 
 option_models = {
     "<select>" : '<select>',
